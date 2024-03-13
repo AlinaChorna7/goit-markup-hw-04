@@ -62,19 +62,24 @@ line-height: 117%;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
-margin-right: 76px;
+padding-right: 76px;
 }
 .logo-part{
-font-weight: 700;
-font-size: 18px;
-line-height: 117%;
-letter-spacing: 0.03em;
-text-transform: uppercase;
 color:#2e2f42;
-margin-right: 76px;
+
 }
 
+.ft-icons{
+    background: #f4f4fd;
+    border: 1px solid #8e8f99;
+border-radius: 4px;
+width: 264px;
+height: 112px;
+}
 
+.sec-two-icons{
+    fill: #2e2f42, #2e2f42;
+}
 
 .header-list{
     display: flex;
@@ -104,12 +109,13 @@ padding-bottom: 24px;
 
 .address{
     font-style: normal;
+    margin-left: auto;
 }
 
 .adress-list{
     display: flex;
     gap: 40px;
-    
+  
 }
 
 .adress-item{
@@ -130,6 +136,12 @@ padding-bottom: 24px;
 
 .backgroud-one{
     background-color: #2e2f42;;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/office.jpg);
+    background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+    width: 1440px;
+    margin: 0 auto;
     padding-top: 188px;
     padding-bottom: 188px;
 }
@@ -142,12 +154,12 @@ color: white;
 text-align: center;
 text-transform: capitalize;
 max-width: 496px;
+margin: 0 auto;
+padding-bottom: 48px;
 
 }
 
-.hero-wrap{
-    padding: 198px 482px 48px 482px;
-    } 
+
 
 .button{
 font-weight: 500;
@@ -162,6 +174,7 @@ border: none;
 background-color: #4d5ae5;
 border-radius: 4px; 
 cursor: pointer;
+margin: 0 auto;
 }
 
 
@@ -190,6 +203,15 @@ cursor: pointer;
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
+
+
+.sec-two-icons{
+   
+    width: 64px;
+    height: 64px;
+}
+
  .ft-list{
     display: flex;
     width: 1128px;
@@ -207,7 +229,7 @@ font-size: 20px;
 line-height: 120%;
 letter-spacing: 0.02em;
 color:#2e2f42;
-margin-bottom: 8px;
+
 }
 
 .section-two-text{
@@ -259,7 +281,6 @@ line-height: 120%;
 letter-spacing: 0.02em;
 color: #2e2f42;
 text-align: center;
-margin-bottom: 8px;
 }
 
 .our-team-work{
@@ -268,15 +289,12 @@ line-height: 150%;
 letter-spacing: 0.02em;
 color: #434455;
 text-align: center;
-padding-bottom: 32px;
 }
 
 .our-team-list{
     display: flex;
     margin: 0 auto;
-margin-left: 156px;
-margin-right: 156px;
-gap: 24px;
+ gap: 24px;
     
 }
 
@@ -306,7 +324,7 @@ gap: 24px;
     color: #2e2f42;
     text-align: center;
     text-transform: capitalize;
-    margin-bottom: 72px;
+   
     
 }
 
@@ -316,7 +334,7 @@ font-size: 20px;
 line-height: 120%;
 letter-spacing: 0.02em;
 color: #2e2f42;
-margin-bottom: 8px;
+
 }
 
 .portfolio-text {
@@ -354,7 +372,7 @@ letter-spacing: 0.03em;
 color: #4d5ae5;
 text-transform: uppercase;
 display: inline-block;
-margin-bottom: 16px;
+
 }
 .footer-logo-part{
    color:#f4f4fd;
