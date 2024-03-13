@@ -78,7 +78,8 @@ height: 112px;
 }
 
 .sec-two-icons{
-    fill: #2e2f42, #2e2f42;
+    fill: #2e2f42 ;
+    margin: 0 auto;
 }
 
 .header-list{
