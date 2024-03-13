@@ -197,16 +197,15 @@ margin: 0 auto;
 .ft-icons{
     background: #f4f4fd;
     border: 1px solid #8e8f99;
-border-radius: 4px;
-width: 264px;
-height: 112px;
+ border-radius: 4px;
+ width: 264px;
+ height: 112px;
 
 }
 
 .sec-two-icons{
     fill: #2e2f42;
-   margin: 0 auto;
-   padding: 24px 100px;
+   
 }
 
 
