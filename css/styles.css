@@ -288,14 +288,18 @@ color: #434455;
 text-align: center;
 }
 
+.sociate-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .sociale-icon{
     width: 40px;
     height: 40px;
     background-color: #4d5ae5;
     border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+   
 
 }
 
