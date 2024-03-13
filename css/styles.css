@@ -292,6 +292,7 @@ text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 24px;
 }
 
 .sociale-icon{
@@ -305,6 +306,7 @@ text-align: center;
 
 .team-icons{
     fill: #FFFFFF;
+    stroke: #FFFFFF;
 }
 
 .our-team-list{
