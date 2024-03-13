@@ -4,7 +4,7 @@ body{
     background-color: #FFFFFF;
 }
 
-h1 h2 h3 h4 h5 h6 p{
+h1, h2, h3, h4, h5, h6, p{
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -69,18 +69,7 @@ color:#2e2f42;
 
 }
 
-.ft-icons{
-    background: #f4f4fd;
-    border: 1px solid #8e8f99;
-border-radius: 4px;
-width: 264px;
-height: 112px;
-}
 
-.sec-two-icons{
-    fill: #2e2f42 ;
-    margin: 0 auto;
-}
 
 .header-list{
     display: flex;
@@ -205,13 +194,20 @@ margin: 0 auto;
     overflow: hidden;
 }
 
-
+.ft-icons{
+    background: #f4f4fd;
+    border: 1px solid #8e8f99;
+border-radius: 4px;
+width: 264px;
+height: 112px;
+}
 
 .sec-two-icons{
-   
-    width: 64px;
-    height: 64px;
+    fill: #2e2f42 ;
+    margin: 0 auto;
 }
+
+
 
  .ft-list{
     display: flex;
