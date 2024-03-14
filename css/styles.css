@@ -229,6 +229,8 @@ font-size: 20px;
 line-height: 120%;
 letter-spacing: 0.02em;
 color:#2e2f42;
+margin-top: 8px;
+margin-bottom: 8px;
 
 }
 
@@ -271,7 +273,7 @@ margin-bottom: 72px;
 
 .team-name{
     padding-top: 32px;
-    padding-bottom: 32px;
+    padding-bottom: 8px;
 }
 
 .our-team-name{
@@ -294,8 +296,8 @@ text-align: center;
 .sociale-flex{
     display: flex;
     gap: 24px;
-    margin-top: 0;
-    padding-top: 8px;
+    
+    
     padding-left: 16px;
     padding-right: 16px;
     padding-bottom: 32px;
