@@ -269,6 +269,8 @@ margin-bottom: 72px;
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px; 
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: #fff;
 }
 
 .team-name{
@@ -291,6 +293,7 @@ line-height: 150%;
 letter-spacing: 0.02em;
 color: #434455;
 text-align: center;
+margin-top: 8px;
 }
 
 .sociale-flex{
@@ -352,6 +355,7 @@ text-align: center;
     color: #2e2f42;
     text-align: center;
     text-transform: capitalize;
+    margin-bottom: 72px;
    
     
 }
@@ -400,6 +404,7 @@ letter-spacing: 0.03em;
 color: #4d5ae5;
 text-transform: uppercase;
 display: inline-block;
+margin-bottom: 16px;
 
 }
 .footer-logo-part{
