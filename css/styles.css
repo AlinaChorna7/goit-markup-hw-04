@@ -130,7 +130,7 @@ padding-bottom: 24px;
     background-repeat: no-repeat;
   background-position: center;
   background-size: cover;  
-    width: 1440px;
+    max-width: 1440px;
     margin: 0 auto;
     padding-top: 188px;
     padding-bottom: 188px;
@@ -314,6 +314,9 @@ margin-top: 8px;
    display: flex;
    align-items: center;
  justify-content: center;
+ transition-property: background-color;
+ transition-duration: 250ms;
+ transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .sociale-icon:hover{
@@ -347,7 +350,13 @@ margin-top: 8px;
 
 .porfolio-cataloug{
     width: calc((100% - 48px) / 3);
+    
 }
+
+.porfolio-cataloug:hover .port-hover{
+    transform: translateY(0);
+} 
+
 
 .port-text{
     padding: 32px 16px;
@@ -390,6 +399,26 @@ color: #434455;
     column-gap: 24px;
     row-gap: 48px;
     
+}
+
+.port-wrap{
+    position: relative;
+    overflow: hidden;
+}
+
+.port-hover{
+ position: absolute;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;
+color:  #f4f4fd;
+background-color: #4d5ae5;
+height: 100%;
+padding: 40px 32px 164px 32px;
+transform: translateY(100%);
+transition-property: transform;
+ transition-duration: 250ms;
+ transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-sect{
@@ -463,6 +492,9 @@ margin-bottom: 16px;
    display: flex;
    align-items: center;
  justify-content: center;
+ transition-property: background-color;
+ transition-duration: 250ms;
+ transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
