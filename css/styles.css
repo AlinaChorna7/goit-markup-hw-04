@@ -316,6 +316,14 @@ margin-top: 8px;
  justify-content: center;
 }
 
+.sociale-icon:hover{
+    background-color: #31d0aa;
+}
+
+.sociale-icon:focus{
+    background-color: #31d0aa;
+}
+
 .team-icons{
     fill: #FFFFFF;
     
@@ -411,6 +419,20 @@ margin-bottom: 16px;
    color:#f4f4fd;
 }
 
+.media-flex{
+    display: flex;
+    gap: 120px;
+
+}
+
+.footer-wrap{
+    margin: 100px, 0, 100px, 156px;
+}
+
+.media-wrap{
+    margin: 100px, 692px, 132px, 0;
+}
+
 .footer-text{
 font-size: 16px;
 line-height: 150%;
@@ -442,6 +464,14 @@ margin-bottom: 16px;
    align-items: center;
  justify-content: center;
 
+}
+
+.footer-media:hover{
+    background-color: #31d0aa;
+}
+
+.footer-media:focus{
+    background-color: #31d0aa;
 }
 
 .footer-icon{
