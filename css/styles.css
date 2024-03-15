@@ -408,13 +408,17 @@ color: #434455;
 
 .port-hover{
  position: absolute;
+ top: 0;
 font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.02em;
 color:  #f4f4fd;
 background-color: #4d5ae5;
 height: 100%;
-padding: 40px 32px 164px 32px;
+padding-top: 40px;
+padding-right: 32px;
+padding-bottom: 164px;
+padding-left: 32px;
 transform: translateY(100%);
 transition-property: transform;
  transition-duration: 250ms;
